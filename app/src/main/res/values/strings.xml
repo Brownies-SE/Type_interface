@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TypeInterface</string>
+    <string-array name="Typeface_array">
+        <item>Default</item>
+        <item>Default Bold</item>
+        <item>Monospace</item>
+        <item>San Serif</item>
+        <item>Serif</item>
+    </string-array>
+
+    <string-array name="Color_array">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+        <item>Black</item>
+        <item>orange</item>
+    </string-array>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/TypeSpinner"
+        android:layout_width="246dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="375dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="649dp" />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="150dp"
+        android:layout_height="195dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="480dp"
+        android:layout_marginBottom="522dp">
+
+        <RadioButton
+            android:id="@+id/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black" />
+
+        <RadioButton
+            android:id="@+id/colorBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+
+        <RadioButton
+            android:id="@+id/colorRed"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Red" />
+
+        <RadioButton
+            android:id="@+id/colorGreen"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Green" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sizeButton"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="362dp"
+        android:layout_marginBottom="440dp"
+        android:text="size+" />
+
+    <Button
+        android:id="@+id/sizeMButton"
+        android:layout_width="111dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="438dp"
+        android:text="size-" />
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="256dp"
+        android:layout_height="160dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="818dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="110dp"
+        android:layout_alignTop="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="907dp"
+        android:text=""
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/italicToggle"
+        android:layout_width="125dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="325dp"
+        android:text="Italic"
+        android:textOff="Italic"
+        android:textOn="Italic" />
+
+    <ToggleButton
+        android:id="@+id/boldToggle"
+        android:layout_width="125dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="325dp"
+        android:text="Bold"
+        android:textOff="bold"
+        android:textOn="bold" />
+
+    <ToggleButton
+        android:id="@+id/boldItalicToggle"
+        android:layout_width="125dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="325dp"
+        android:text="Bold and Italic"
+        android:textOff="Bold/Italic"
+        android:textOn="Bold.Italic" />
+
+</RelativeLayout>
